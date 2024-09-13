@@ -52,11 +52,11 @@ nav ul li a {
 }
 
 nav ul li a.highlight {
-    color: #87929A; /* Custom color for How It Works */
+    color: #87929A; 
 }
 
-/* Hero Section */
-.hero {
+
+.head {
     text-align: center;
     padding: 60px 20px;
     background-image: url('background-image.jpg');
@@ -65,12 +65,12 @@ nav ul li a.highlight {
     color: white;
 }
 
-.hero h1 {
+.head h1 {
     font-size: 42px;
     margin-bottom: 10px;
 }
 
-.hero p {
+.head p {
     font-size: 18px;
     margin-bottom: 30px;
 }
@@ -108,13 +108,13 @@ nav ul li a.highlight {
     transition: .3s linear;
 }
 .single-list-topics-content h2>a { margin: 13px 0;}
-/*.single-list-topics-content:last-child{margin-right: 0;}*/
+
 
 .single-list-topics-icon [class^="flaticon-"]:before,.single-list-topics-icon [class*=" flaticon-"]:before,.single-list-topics-icon [class^="flaticon-"]:after,.single-list-topics-icon [class*=" flaticon-"]:after {font-size: 45px;color:#343a3f;}
 
 
 
-.welcome-hero-serch-box{
+.serch-box{
     margin-top: 5px;
     display: flex;
     justify-content: center;
@@ -122,7 +122,7 @@ nav ul li a.highlight {
 
 
 }
-.welcome-hero-form {
+.hero-form {
     display: flex;
     background: #fff;
     height: 70px;
@@ -130,7 +130,7 @@ nav ul li a.highlight {
     width: 50%;
     left: 50px;
 }
-.single-welcome-hero-form {
+.single-hero-form {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -138,27 +138,27 @@ nav ul li a.highlight {
     width: 50%;
     padding: 0 30px;
 }
-.single-welcome-hero-form:first-child{border-right: 1px solid #edeff1;}
-.single-welcome-hero-form input {
+.single-hero-form:first-child{border-right: 1px solid #edeff1;}
+.single-hero-form input {
     margin-left: 10px;
     height: 70px;
     width: 300px;
     border: 0;
     background: transparent;
 }
-.single-welcome-hero-form input[type="text"]{
+.single-hero-form input[type="text"]{
     font-size: 14px;
     color: #859098;
     text-transform: capitalize;
     font-weight: 500;
 }
-.welcome-hero-form-icon {
+.form-icon {
     position: absolute;
     top: 20px;
     right: 30px;
     color: #252d32;
 }
-.welcome-hero-btn {
+.hero-btn {
     display:  flex;
     justify-content:  center;
     align-items:  center;
